@@ -2,6 +2,7 @@ package net.moderateblue.liarbar;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.moderateblue.liarbar.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,6 @@ public class LiarBar implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
